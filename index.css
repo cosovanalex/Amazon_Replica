@@ -1,0 +1,202 @@
+* {
+    /* border: 1px solid red; */
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(61, 146, 251);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.whole {
+    /* background-color: aquamarine; */
+    margin-top: 25em;
+    margin-bottom: 25em;
+    margin-left: 0;
+    margin-right: 0;
+}
+.flex-container {
+    border: 1px solid gray;
+    height: 22em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.form {
+    width: 28em;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items:stretch;
+}
+.sign-in {
+    margin: 0px;
+    margin-left: 0.4em;
+    padding: 2px;
+}
+
+.amazon {
+    margin-left: 0.5em;
+    margin-right: 1em;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: flex-start;
+}
+
+label {
+    padding: 5px
+}
+
+
+input {
+    height: 2.5em;
+    width: 100%;
+    margin-right: 0.5em;
+    font-size: small;
+}
+
+.formp {
+    margin-top: 0.5em;
+}
+
+.formp ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+.password {
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    text-decoration: none;
+    margin:0;
+}
+
+#pass {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:flex-start;
+    margin-left: 0px;
+}
+
+#forgot-pass {
+    display: flex;
+    margin: 0px;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+hr {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+button {
+    width: 94%;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.continue {
+    background-color: rgb(246, 200, 94);
+    font-size: 16px;
+    font-weight: lighter;
+    padding: 1em;
+    border: 0.3px solid gray;
+}
+
+#cont-btn {
+    height: 2.5em;
+    margin-top: 1.3em;
+    margin-bottom: 1.3em;
+    border: 0;
+}
+
+#help {
+    margin-left: 2em;
+    margin-bottom: 1.5em;
+    margin-top: 0.2em;
+}
+
+.account {
+    margin-top: 1em;
+    width: 91%;
+    height: 2.5em;
+    background-color: rgb(232, 233, 235);
+    font-size: 16px;
+    font-weight: lighter;
+    border: 0.3px solid gray;
+}
+
+.new {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+    margin-bottom: 3em;
+    width: 29em;
+    height: auto;
+}
+.new h2 {
+    color: gray;
+    font-style:normal;
+    font-weight: lighter;
+    
+}
+
+.hr-lines {
+    width: 90%; 
+    text-align: center; 
+    border-bottom: 1px solid gray; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+}
+
+.hr-lines span {
+    background:#fff; 
+    padding:0 10px; 
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+}
+
+.footlist {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin: 1em;
+    padding:5px;
+}
+
+.footlist li {
+    margin: 0;
+    padding: 1em;;
+}
